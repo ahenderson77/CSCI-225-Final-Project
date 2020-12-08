@@ -1,0 +1,28 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 724px;
+}
+section {
+    height: 450px;
+    margin-left: -74px;
+}
+body.rockC {
+    margin-left: 496px;
+    margin-right: -84px;
+    height: 150px;
+}
+body.paperC {
+    margin-left: 256px;
+    height: 150px;
+}
+body.scissorC {
+    margin-left: 184px;
+    margin-right: -326px;
+    height: 150px;
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 851px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
