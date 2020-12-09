@@ -7,18 +7,18 @@ function rockClick() {
     if(rN <.34) {
         let str = document.getElementById("result").innerHTML; 
         let res = str.replace("Choose your weapon!", "It's a tie!");
-        document.getElementById("demo").innerHTML = res;
+        document.getElementById("result").innerHTML = res;
     }
     else if(rN <=.67) {
         let str = document.getElementById("result").innerHTML; 
         let res = str.replace("Choose your weapon!", "You Lose!");
-        document.getElementById("demo").innerHTML = res;
+        document.getElementById("result").innerHTML = res;
         L = L + 1;
     }
     else {
         let str = document.getElementById("result").innerHTML; 
         let res = str.replace("Choose your weapon!", "You Win!");
-        document.getElementById("demo").innerHTML = res;
+        document.getElementById("result").innerHTML = res;
         W=W+1;
     }
 }
