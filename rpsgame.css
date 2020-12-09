@@ -25,6 +25,7 @@ p {
 }
 section2 {
     height: 275px;
+    position: relative;
 }
 p2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -45,4 +46,10 @@ img.paper {
 img.scissors {
     padding-left: 200px;
     height: 150px;
+}
+button.R {
+    position: absolute;
+    height: 150px;
+    width: 128px;
+    margin-left: 400px;
 }
