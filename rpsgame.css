@@ -10,11 +10,11 @@ body.rockC {
     height: 150px;
 }
 body.paperC {
-    margin-left: 200px;
+    padding-left: 200px;
     height: 150px;
 }
 body.scissorC {
-    margin-left: 200px;
+    padding-left: 200px;
     height: 150px;
 }
 p {
