@@ -1,5 +1,7 @@
 var W = 0;
 var L = 0;
+document.getElementById("wins").innerHTML=W+" Wins";
+document.getElementById("losses").innerHTML=L+" Losses";
 
 
 function rockClick() {
