@@ -1,5 +1,5 @@
 header {
-    font-family: cursive
+    font-family: cursive;
     margin-left: 724px;
 }
 section {
@@ -27,7 +27,7 @@ section2 {
     height: 275px;
 }
 p2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 780px;
 }
 p3 {
