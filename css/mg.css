@@ -30,6 +30,7 @@ html{
 }
 
 .game{
+    margin: 70px auto;
    display: grid;
    grid-template-columns: repeat(4,auto); 
    grid-gap: 20px;
@@ -37,10 +38,30 @@ html{
    justify-content: center;
 }
 
-.cardback{
-    background-image: url(../img/cards/cardback.jpg);
+.card{
+    position: relative;
+}
+
+.cardface{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.visible .cardback{
+    transform: rotateY(-180deg);
+}
+.card.visible .cardfront{
+    transform: rotateY(0deg);
+}
+
+.cardbackimg{
     height: 221px;
     width: 150px;
+}
 
+.cardfront{
+    transform: rotateY(180deg);
 }
 
