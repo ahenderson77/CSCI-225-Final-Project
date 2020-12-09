@@ -51,4 +51,5 @@ button.R {
     position: absolute;
     height: 150px;
     width: 128px;
+    margin-right: -128px;
 }
