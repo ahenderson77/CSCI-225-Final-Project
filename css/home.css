@@ -1,0 +1,18 @@
+html{
+    background-color: hsla(280, 13%, 25%, 0.8);
+    padding: 7%;
+  }
+
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 6em;
+  
+}
+
+body{
+    background-color: hsla(, saturation, lightness);
+    color: hsla(0,100%, 100%, 0.9); 
+}
