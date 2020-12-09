@@ -41,6 +41,10 @@ p3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 724px;
 }
+p4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 724px;
+}
 img.rock {
     margin-left: 400px;
     height: 150px;
@@ -57,5 +61,17 @@ button.R {
     position: absolute;
     height: 150px;
     width: 128px;
+    margin-right: -128px;
+}
+button.P {
+    position: absolute;
+    height: 150px;
+    width: 1150px;
+    margin-right: -128px;
+}
+button.S {
+    position: absolute;
+    height: 150px;
+    width: 119px;
     margin-right: -128px;
 }
