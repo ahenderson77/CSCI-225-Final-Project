@@ -1,9 +1,8 @@
-var rN = Math.random()
 var W = 0;
 var L = 0;
 
 function rockClick() {
-    console.log(rN);
+    let rN = Math.random()
     if(rN <.34) {
         document.getElementById('result').value="It's a tie!";
         console.log("It's a tie");
