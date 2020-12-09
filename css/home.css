@@ -13,6 +13,6 @@ h1{
 }
 
 body{
-    background-color: hsla(, saturation, lightness);
+    background-color: hsla(saturation, lightness);
     color: hsla(0,100%, 100%, 0.9); 
 }
