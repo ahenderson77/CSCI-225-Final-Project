@@ -4,41 +4,44 @@ var L = 0;
 function rockClick() {
     let rN = Math.random()
     if(rN <.34) {
-        document.getElementById('result').value="It's a tie!";
-        console.log("It's a tie");
+        document.write("It's a tie!")
     }
     else if(rN <=.67) {
-        document.getElementById('result').value="You lose!";
+        document.write("You lose!")
         L = L + 1;
-        console.log("You lose!");
     }
     else {
-        document.getElementById('result').value="You Win!";
+        document.write("You Win!")
         W=W+1;
-        console.log("You Win!");
     }
 }
 
 function paperClick() {
-    if(rN == 1) {
-
+    let rN = Math.random()
+    if(rN <.34) {
+        document.getElementById('result').value="You Win!";
+        W=W+1;
     }
-    else if(rN == 2) {
-
+    else if(rN <=.67) {
+        document.getElementById('result').value="It's a tie!";
     }
     else {
-        
+        document.getElementById('result').value="You lose!";
+        L = L + 1;
     }
 }
 
 function scissorsClick() {
-    if(rN == 1) {
-
+    let rN = Math.random()
+    if(rN <.34) {
+        document.getElementById('result').value="You lose!";
+        L = L + 1;
     }
-    else if(rN == 2) {
-
+    else if(rN <=.67) {
+        document.getElementById('result').value="You Win!";
+        W=W+1;
     }
     else {
-        
+        document.getElementById('result').value="It's a tie";
     }
 }
