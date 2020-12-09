@@ -5,19 +5,19 @@ var L = 0;
 function rockClick() {
     let rN = Math.random()
     if(rN <.34) {
-        var str = document.getElementById("result").innerHTML; 
-        var res = str.replace("Choose your weapon!", "It's a tie!");
+        let str = document.getElementById("result").innerHTML; 
+        let res = str.replace("Choose your weapon!", "It's a tie!");
         document.getElementById("demo").innerHTML = res;
     }
     else if(rN <=.67) {
-        var str = document.getElementById("result").innerHTML; 
-        var res = str.replace("Choose your weapon!", "You Lose!");
+        let str = document.getElementById("result").innerHTML; 
+        let res = str.replace("Choose your weapon!", "You Lose!");
         document.getElementById("demo").innerHTML = res;
         L = L + 1;
     }
     else {
-        var str = document.getElementById("result").innerHTML; 
-        var res = str.replace("Choose your weapon!", "You Win!");
+        let str = document.getElementById("result").innerHTML; 
+        let res = str.replace("Choose your weapon!", "You Win!");
         document.getElementById("demo").innerHTML = res;
         W=W+1;
     }
