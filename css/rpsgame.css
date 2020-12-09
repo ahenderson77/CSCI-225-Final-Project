@@ -11,6 +11,10 @@ body {
 section {
     height: 450px;
 }
+p4 {
+    font-size: 16pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 img.rockC {
     margin-left: 400px;
     height: 150px;
