@@ -7,7 +7,6 @@ section {
 }
 body.rockC {
     margin-left: 496px;
-    margin-right: -84px;
     height: 150px;
 }
 body.paperC {
@@ -16,7 +15,6 @@ body.paperC {
 }
 body.scissorC {
     margin-left: 184px;
-    margin-right: -326px;
     height: 150px;
 }
 p {
