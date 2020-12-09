@@ -1,5 +1,5 @@
 header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: cursive
     margin-left: 724px;
 }
 section {
@@ -25,6 +25,14 @@ p {
 }
 section2 {
     height: 275px;
+}
+p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    margin-left: 780px;
+}
+p3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 724px;
 }
 img.rock {
     margin-left: 400px;
