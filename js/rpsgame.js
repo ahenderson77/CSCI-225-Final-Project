@@ -20,14 +20,14 @@ function rockClick() {
 function paperClick() {
     let rN = Math.random()
     if(rN <.34) {
-        $('#result').text(wm);
+        document.getElementById("result").innerHTML="You Win!";
         W=W+1;
     }
     else if(rN <=.67) {
-        $('#result').text(tm);
+        document.getElementById("result").innerHTML="It's a tie!";
     }
     else {
-        $('#result').text(lm);
+        document.getElementById("result").innerHTML="You Lose!";
         L = L + 1;
     }
 }
@@ -35,14 +35,14 @@ function paperClick() {
 function scissorsClick() {
     let rN = Math.random()
     if(rN <.34) {
-        $('#result').text(lm);
+        document.getElementById("result").innerHTML="You Lose!";
         L = L + 1;
     }
     else if(rN <=.67) {
-        $('#result').text(wm);
+        document.getElementById("result").innerHTML="You Win!";
         W=W+1;
     }
     else {
-        $('#result').text(tm);
+        document.getElementById("result").innerHTML="It's a tie!";
     }
 }
