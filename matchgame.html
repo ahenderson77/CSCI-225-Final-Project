@@ -3,16 +3,24 @@
 
 <head>
     <link rel="stylesheet" href="css/mg.css">
+    <script src="js/mg.js"></script>
     <title>Match Game</title>
 </head>
 
 <body>
     <h1 class="title">Card Match</h1>
+    <div class="overlay visible">
+        <p>Rules: Click each card to revile its value. Match each card in as few flips as possible. Click to Start! 
+        </p>
+    </div>
+    <div id="win" class="overlay"> 
+        <p>You Win!</p>
+    </div>
     <div class="game">
         <div class="flips">
             <p>Flips: <span id="flips">0</span></p>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -20,7 +28,7 @@
                 <img class="cardfrontimg" src="img/cards/card8.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -28,7 +36,7 @@
                 <img class="cardfrontimg" src="img/cards/card6.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -36,7 +44,7 @@
                 <img class="cardfrontimg" src="img/cards/card7.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -44,7 +52,7 @@
                 <img class="cardfrontimg" src="img/cards/card8.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -52,7 +60,7 @@
                 <img class="cardfrontimg" src="img/cards/card1.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -60,7 +68,7 @@
                 <img class="cardfrontimg" src="img/cards/card3.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -68,7 +76,7 @@
                 <img class="cardfrontimg" src="img/cards/card1.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -76,7 +84,7 @@
                 <img class="cardfrontimg" src="img/cards/card2.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -84,7 +92,7 @@
                 <img class="cardfrontimg" src="img/cards/card5.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -92,7 +100,7 @@
                 <img class="cardfrontimg" src="img/cards/card7.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -100,7 +108,7 @@
                 <img class="cardfrontimg" src="img/cards/card2.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -108,7 +116,7 @@
                 <img class="cardfrontimg" src="img/cards/card4.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -116,7 +124,7 @@
                 <img class="cardfrontimg" src="img/cards/card4.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -124,7 +132,7 @@
                 <img class="cardfrontimg" src="img/cards/card3.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
@@ -132,7 +140,7 @@
                 <img class="cardfrontimg" src="img/cards/card5.jpg">
             </div>
         </div>
-        <div class="card visible">
+        <div class="card">
             <div class="cardback cardface">
                 <img class="cardbackimg" src="img/cards/cardback.jpg">
             </div>
