@@ -3,11 +3,11 @@ var W = 0;
 var L = 0;
 
 function rockClick() {
-    if(rN <=.33) {
+    if(rN <.34) {
         document.getElementById('result').value="It's a tie!";
         console.log("It's a tie");
     }
-    else if(rN <=.66) {
+    else if(rN <=.67) {
         document.getElementById('result').value="You lose!";
         L = L + 1;
         console.log("You lose!");
