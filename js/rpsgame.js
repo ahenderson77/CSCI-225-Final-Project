@@ -1,20 +1,24 @@
 var W = 0;
 var L = 0;
-var wm = "you win!";
-var tm = "It's a tie!";
-var lm = "You lose!";
+
 
 function rockClick() {
     let rN = Math.random()
     if(rN <.34) {
-        $('#result').text(tm);
+        var str = document.getElementById("result").innerHTML; 
+        var res = str.replace("Choose your weapon!", "It's a tie!");
+        document.getElementById("demo").innerHTML = res;
     }
     else if(rN <=.67) {
-        $('#result').text(lm);
+        var str = document.getElementById("result").innerHTML; 
+        var res = str.replace("Choose your weapon!", "You Lose!");
+        document.getElementById("demo").innerHTML = res;
         L = L + 1;
     }
     else {
-        $('#result').text(wm);
+        var str = document.getElementById("result").innerHTML; 
+        var res = str.replace("Choose your weapon!", "You Win!");
+        document.getElementById("demo").innerHTML = res;
         W=W+1;
     }
 }
