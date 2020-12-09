@@ -1,17 +1,20 @@
 var W = 0;
 var L = 0;
+var wm = "you win!";
+var tm = "It's a tie!";
+var lm = "You lose!";
 
 function rockClick() {
     let rN = Math.random()
     if(rN <.34) {
-        document.write("It's a tie!")
+        $('#result').text(tm);
     }
     else if(rN <=.67) {
-        document.write("You lose!")
+        $('#result').text(lm);
         L = L + 1;
     }
     else {
-        document.write("You Win!")
+        $('#result').text(wm);
         W=W+1;
     }
 }
@@ -19,14 +22,14 @@ function rockClick() {
 function paperClick() {
     let rN = Math.random()
     if(rN <.34) {
-        document.getElementById('result').value="You Win!";
+        $('#result').text(wm);
         W=W+1;
     }
     else if(rN <=.67) {
-        document.getElementById('result').value="It's a tie!";
+        $('#result').text(tm);
     }
     else {
-        document.getElementById('result').value="You lose!";
+        $('#result').text(lm);
         L = L + 1;
     }
 }
@@ -34,14 +37,14 @@ function paperClick() {
 function scissorsClick() {
     let rN = Math.random()
     if(rN <.34) {
-        document.getElementById('result').value="You lose!";
+        $('#result').text(lm);
         L = L + 1;
     }
     else if(rN <=.67) {
-        document.getElementById('result').value="You Win!";
+        $('#result').text(wm);
         W=W+1;
     }
     else {
-        document.getElementById('result').value="It's a tie";
+        $('#result').text(tm);
     }
 }
