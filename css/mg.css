@@ -1,9 +1,14 @@
+html{
+    min-height: 100vh;
+}
+
 body{
     background-image: url(../img/background/cardtable.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .title{
@@ -18,31 +23,31 @@ body{
     font-size: 3em;
 }
 
-html{
-    min-height: 100vh;
-}
-
-body{
-    margin: 0;
-}
-
 .flips{
     grid-column: 1 / -1;
 }
 
 .game{
     margin: 70px auto;
-   display: grid;
-   grid-template-columns: repeat(4,auto); 
-   grid-gap: 20px;
-   justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,auto); 
+    grid-gap: 20px;
+    justify-content: center;
+    perspective: 600px;
 }
 
 .card{
     position: relative;
+    height: 200px;
+    width: 150px;
 }
 
 .cardface{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
     backface-visibility: hidden;
 }
 
@@ -51,7 +56,10 @@ body{
 }
 
 .card.visible .cardfront{
-    transform: rotateY(0deg);
+    transform: rotateY(0);
+}
+.card.matched .cardfront .cardfrontimg{
+    animation: pop 1s linear 600ms 1;
 }
 
 .cardfront{
