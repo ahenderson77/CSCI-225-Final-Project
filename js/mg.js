@@ -1,4 +1,4 @@
-class mg {
+class matchgame {
     constructor(cards) {
         this.cardArray = cards;
         this.counter = document.getElementById('flips')
@@ -79,7 +79,7 @@ class mg {
     }
 }
 if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', start())
+    document.addEventListener('DOMContentLoaded', start)
 }
 else {
     start();
@@ -88,7 +88,7 @@ else {
 function start() {
     var overlays = Array.from(document.getElementsByClassName('overlay'));
     var cards = Array.from(document.getElementsByClassName("card"))
-    var game = new mg(cards);
+    var game = new matchgame(cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
